@@ -3,5 +3,6 @@
 
   // Environment variables
   window["env"]["apiUrl"] = "${API_URL}";
+  window["env"]["uiUrl"] = "${UI_URL}";
   window["env"]["debug"] = "${DEBUG}";
 })(this);

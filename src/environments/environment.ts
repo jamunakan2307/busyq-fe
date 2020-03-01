@@ -5,6 +5,7 @@
 export const environment = {
   production: false,
   apiUrl: window["env"]["apiUrl"] || "default",
+  uiUrl: window["env"]["uiUrl"] || "default",
   debug: window["env"]["debug"] || false
 };
 
